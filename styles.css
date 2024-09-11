@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsla(0, 0%, 96%, 0.867);
+    background-image: url('背景.jpg');
+    /* 添加背景图片 */
+    background-size: cover;
+    /* 覆盖整个元素 */
+    background-position: center;
+    /* 居中背景图片 */
+    background-repeat: no-repeat;
+    /* 不重复背景图片 */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+section {
+    display: flex;
+    /* 使用flexbox布局 */
+    flex-direction: column;
+    /* 设置子元素垂直排列 */
+    align-items: center;
+    /* 水平居中对齐子元素 */
+    justify-content: center;
+    /* 垂直居中对齐子元素，如果需要 */
+    margin: 20px;
+    /* 调整边距 */
+    padding: 20px;
+    /* 添加内边距 */
+    border: 1px solid #333;
+    /* 添加边框 */
+}
+
+section p {
+    font-size: 14px;
+    /* 减小字体大小 */
+    line-height: 1.6;
+    /* 调整行高，确保文本可读性 */
+    margin: 10px 0;
+    /* 调整段落间距 */
+    padding: 10px;
+    /* 添加内边距 */
+    text-align: left;
+    /* 设置文本左对齐，如果需要 */
+    max-width: 600px;
+    /* 最大宽度，确保段落不会太宽 */
+    /* border-left: 3px solid #333; 移除左侧边框 */
+    /* padding-left: 15px; 移除或调整左侧内边距 */
+    padding-left: 10px;
+    /* 调整为统一的内边距 */
+}
+
+#bulldog-image {
+    width: auto;
+    /* 宽度自适应 */
+    height: auto;
+    /* 高度自适应 */
+    max-width: 100%;
+    /* 最大宽度，确保图片不会超出容器 */
+    margin-bottom: 20px;
+    /* 在图片下方添加空间 */
+}
+
+#bulldog-image {
+    width: 600px;
+    /* 设置图片宽度 */
+    height: auto;
+    /* 高度自适应，保持图片比例 */
+}
+
+#bulldog-image {
+    width: 600px;
+    /* 设置图片宽度为300像素 */
+    height: 500px;
+    /* 设置图片高度为200像素 */
+}
+
+button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.934);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#description {
+    font-size: 20px;
+    /* 设置字体大小为16像素 */
+}
